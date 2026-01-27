@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam Mortazy - Portfolio</title>
+    <style>
+      body{
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      }
+      header{
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #4a6baf;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 40px;
+      }
+      h1{
+        font-size: 2.8em;
+        margin: 0;
+      }
+      section{
+        background-color: white;
+        padding: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      h2{
+        color: #4a6baf;
+        border-bottom: 3px solid #4a6baf;
+        padding-bottom: 10px;
+      }
+      ul{
+        padding-left: 20px;
+      }
+      li{
+        margin-bottom: 10px;
+        font-size: 1.1em;
+      }
+      a{
+        color: #4a6baf;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      label{
+        font-weight: bold;
+        color: #444;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea{
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1em;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      textarea{
+        height: 150px;
+        resize: vertical;
+      }
+      input[type="submit"] {
+            background-color: #4a6baf;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            align-self: flex-start;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+          background-color: #3a5590;
+        }
+      footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }  
+    </style>
+</head>
+<body>
+
+<header>
+  <h1>Mary Mortazy</h1>
+  <p>Aspiring Back-End Developer</p>
+</header>
+
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>My goal is to become a strong back-end developer and work at international companies in the future.
+      Besides programming, I am also an English teacher with a C1 proficiency level.
+      I'm passionate about learning new technologies, problem-solving, and building scalable and reliable systems.</p>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Python</li>
+      <li>Back-end fundamentals (APIs, databases, server logic)</li>
+      <li>Git and GitHub</li>
+      <li>Advanced English (C1)</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Projects</h2>
+    <h3>Simple Banking System with Python</h3>
+    <p>I built a simple banking application that includes features like creating accounts, logging in, depositing, withdrawing, and checking balance.
+    This project helped me deepen my understanding of object-oriented programming, error handling, and clean code structure in Python.</p>
+    <a href="https://github.com/maryammortazavi84/simple-banking-system-python/tree/master">Visit Here</a>
+  </section>
+  <section>
+    <h2>Ongoing Projects</h2>
+    <ul>
+      <li>Learning back-end frameworks like FastAPI or Django</li>
+      <li>Building simple APIs and connecting to databases</li>
+      <li>Cinema ticket project</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="e.g. John Doe">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="example@gmail.com">
+      <label for="Message">Message:</label>
+      <textarea name="Message" placeholder="Write your message here"></textarea>
+      <input type="submit" value="submit">
+    </form>
+  </section>
+</footer>
+    
+</body>
+</html>
