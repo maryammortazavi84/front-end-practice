@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maryam Mortazy | English Teacher Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Maryam Mortazy</h1>
+    <p>English Language Teacher</p>
+    <nav>
+      <ul>
+        <li><a href="#Professional-Summary">Professional Summary</a></li>
+        <li><a href="#Teaching-Skills">Teaching Skills</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Teaching-Philosophy">Teaching Philosophy</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Professional-Summary">
+      <h2>Professional Summary</h2>
+      <p>I am an English language teacher with an academic background in English
+        Language Education and experience teaching learners of different ages and
+        proficiency levels. My teaching approach focuses on clarity, structured 
+        learning, and helping students build confidence in using English in real
+        situations.
+        I aim to create supportive and engaging learning environments where students
+        can improve their language skills step by step.</p>
+    </section>
+
+    <section id="Teaching-Skills">
+      <h2>Teaching Skills</h2>
+        <ul>
+          <li>Teaching General English</li>
+          <li>Lesson planning and structured instruction</li>
+          <li>Explaining grammar in a clear and practical way</li>
+          <li>Vocabulary development strategies</li>
+          <li>Classroom management</li>
+          <li>Adapting lessons to different proficiency levels</li>
+          <li>Encouraging student participation and confidence</li>
+        </ul>
+    </section>
+
+    <section id="Education">
+      <h2>Education</h2>
+      <ul>
+        <li>B.A. in English Language Education</li>
+        <li>Farhangian University</li>
+      </ul>
+    </section>
+
+    <section id="Experience">
+      <h2>Experience</h2>
+      <h3>English Language Teacher</h3>
+      <ul>
+        <li>Teaching students from beginner to intermediate levels</li>
+        <li>Preparing lesson plans based on learner needs</li>
+        <li>Helping students improve speaking, reading, and grammar skills</li>
+        <li>Creating a positive and supportive classroom atmosphere</li>
+      </ul>
+    </section>
+
+    <section id="Teaching-Philosophy">
+      <h2>Teaching Philosophy</h2>
+      <p>I believe language learning should be clear, structured, and practical.
+        Students learn best when they feel comfortable, understand the purpose of
+        each activity, and can see their progress over time.</p>
+    </section>
+  </main>
+
+<footer>
+    <form  id="Contact" action="/submit" method="post" enctype="multipart/form-data">
+
+    <h2>Contact Me</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0" max="100" step="1">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="4" required>
+
+    <label>Gender:</label>
+    <label>
+      <input type="radio" name="gender" value="male"> Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female"> Female
+    </label>
+
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="resume" name="resume">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</footer>
+
+
+</body>
+</html>

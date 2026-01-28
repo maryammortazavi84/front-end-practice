@@ -1,0 +1,71 @@
+body{
+    font-family: 'Comic Sans MS';
+    margin: 20px;
+    background-color:#e3d1af ;
+}
+ header h1{
+        border-radius: 10px;
+        padding: 10px;
+        background-color:#521716;
+        font-size: 40px;
+        color: #e3d1af;
+    
+ }
+
+ main h2{
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#521716;
+    font-size: 25px;
+    color: #e3d1af;
+ }
+
+footer h2{
+   border-radius: 10px;
+   padding: 10px;
+   background-color:#521716;
+   font-size: 25px;
+   color: #e3d1af; 
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px 0;   /* بالا و پایین 20px، چپ و راست صفر */
+    padding: 20px;
+    background-color: #fdf2e9;
+    border-radius: 10px;
+}
+
+footer label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer input,
+footer textarea {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;          
+    box-sizing: border-box; 
+    margin-bottom: 15px;  
+}
+
+footer button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #521716;
+    color: #e3d1af;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer button:hover {
+    background-color: #7b1f22;
+}
