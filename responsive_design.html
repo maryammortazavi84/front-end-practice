@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive_design</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box{
+        width: 25%;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #92b3e8;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: large;
+        font-style: italic;
+    }
+    @media(max-width: 900px){
+        .box{
+            width:40% ;
+            font-size: medium;
+            background-color: #5e92e6;
+        }
+    }
+    @media(max-width: 600px) {
+        .box{
+            width: 100%;
+            font-size: small;
+            background-color: #2267d6;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+    </div>
+</body>
+</html>
