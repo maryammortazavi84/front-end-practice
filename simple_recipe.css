@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url('fonts/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 600;
+}
+
+body{
+    background-color: #f9f3ef;
+    color: #666;
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 72px;
+    margin: 0 auto;  
+    max-width: 700px;
+    line-height: 2;   
+}
+
+h1{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 24px;
+    color: #854632FF;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Outfit' , sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #7B284FFF;
+}
+
+.container {
+    background-color: white;
+    border-radius: 24px;
+    padding: 30px;
+}
+
+.hero-image {
+    max-width: 100%;  
+    height: auto;    
+    border-radius: 24px;
+    display: block;  
+    margin: 0 auto;
+}
+
+#preparation_time {
+    background-color: #fbeff3;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+#preparation_time .label {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+#preparation_time ul {
+  list-style-position: outside;
+  padding-left: 1.5rem; 
+}
+
+#preparation_time li {
+  padding-left: 1rem;
+}
+
+#ingredients {
+    border-bottom: 1px solid #ddd;
+}
+
+#ingredients ul {
+  list-style-position: outside;
+  padding-left: 1.5rem; 
+}
+
+#ingredients li {
+  padding-left: 1rem;
+}
+
+#instructions {
+    border-bottom: 1px solid #ddd;
+}
+
+#instructions .steps {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+#instructions ol {
+  counter-reset: step;
+  padding-left: 0;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+#instructions li {
+  padding-left: 1rem;
+}
+
+#instructions ol li::marker {
+  color:  #b45f06;   
+  font-weight: 600; 
+}
+
+#nutrition table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+#nutrition td {
+  padding: 12px 0; 
+}
+
+#nutrition tr {
+  border-bottom: 1px solid #ddd; 
+}
+
+#nutrition td:last-child {
+  color: #b45f06;
+  font-weight: 600;
+}
+
+
+@media (max-width: 375px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #f9f3ef;
+    }
+
+    .container {
+        background-color: white;          
+        padding: 0 24px;                  
+        margin: 0;
+        max-width: none;                 
+        box-shadow: none;              
+    }
+
+    .hero-image {
+        width: 100vw;                     
+        margin-left: calc(50% - 50vw);   
+        margin-right: calc(50% - 50vw);
+        margin-top: 0;
+        border-radius: 0;
+        display: block;
+        max-width: none;
+    }
+
+
+    .hero-image {
+        margin: 0 -24px;               
+        width: calc(100% + 48px);
+        border-radius: 0;
+    }
+  
+
+    header {
+        padding-top: 24px;              
+        padding-bottom: 32px;
+    }
+
+    h1 {
+        font-size: 32px;                 
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 32px 0;                 
+    }
+
+    #preparation_time {
+        padding: 24px;
+    }
+
+    #nutrition table td {
+        padding: 12px 0;
+    }
+
+    /* اگر لیست‌ها خیلی باز بودن */
+    ul, ol {
+        padding-left: 24px;               /* یا 20px */
+    }
+}
