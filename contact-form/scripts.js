@@ -26,3 +26,4 @@ form.addEventListener("submit", function (event) {
   console.log("Message:", message);
   console.log("Consent Given:", consent);
 });
+
